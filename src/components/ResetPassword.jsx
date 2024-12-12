@@ -8,7 +8,7 @@ function ResetPassword() {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
   const navigate = useNavigate();
-  const { token, email } = useParams();
+  const { email } = useParams();
   //api url
   const apiUrl = import.meta.env.VITE_API_URL;
 
