@@ -10,6 +10,8 @@ The system stores this random string in the database for verification. When the 
 
 To ensure security, the reset link has an expiration time. If the user tries to use an expired link, an alert is displayed, and they must request a new one.
 
+![Password Reset Flow Screenshot](src/assets/Screenshot.png)
+
 ## Technologies Used
 
 - **Front-end:** React
